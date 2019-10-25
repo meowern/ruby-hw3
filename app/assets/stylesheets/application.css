@@ -1,0 +1,55 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ body {
+  line-height:18px}pre{background-color:#eee;
+  list-style:square}label{display:block}body{font-family:"helvetica"}#header{padding:10px;
+  background-color:lightgray;
+  border:1px solid black}
+  
+  #table{border:1px solid #AAAAAA;
+    font-size: 13px;
+    margin-left: 20px;
+    background-color:#EEEEEE;
+    width:98.3%;
+    text-align:left;
+    border-collapse:collapse}#table td,#table th{border:1px solid #AAAAAA
+    padding:3px 2px}#table tbody td{font-size:13px}#table tr:nth-child(even){background:#D0E4F5}#table thead{background:#1C6EA4;
+  }
+
+  #table tr {
+    border-bottom: 1px solid #AAAAAA;
+    border-left: 1px solid #AAAAAA;
+    border-right: 1px solid #AAAAAA;
+  }
+
+  #table td {
+    border-left: 1px solid #AAAAAA;
+    border-right: 1px solid #AAAAAA;
+  }
+
+  #table th {
+    border-left: 1px solid #AAAAAA;
+    border-right: 1px solid #AAAAAA;
+  }
+
+  #p1{
+    border-bottom: solid 0.1em;
+  }
+
+  #p2{
+    border-top: solid 0.1em;
+  }
